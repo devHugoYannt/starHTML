@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="50s" />
     <meta name="author" content="Roberto Braga de Oliveira Filho, Hugo Ian de Melo Soares, Nícolas Alves Martins">
-    <title>Stars Educações - Inicio</title>
+    <title>Stars Educações</title>
     <link rel="icon" href="Image/STAR EDUCATION.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,16 +34,14 @@
 
         <section>
             <h2>Faça seu cadastro para ter acesso ao conteúdo gratuito</h2>
-            <form>
+            <form action="mailto:yannt.hugo.yan@gmail.com" methodo="post"
+             enctype="multipart/form-data"   
+             name="FormularioEmail"
                 <div class="row">
-                    <label>Nome: </label> <input type="text" name="nome"><br>
-                    <label>Email: </label> <input type="email"> <br>
+                    <label>Nome: </label> <input type="text" name="nome" required/><br>
+                    <label>Email: </label> <input type="email" required /> <br>
                 </div>
                 
-                <div class="row">
-                    <label>Profissão: </label> <input type="text">
-                </div>
-
                 <div class="row">
                     <label>Cidade: </label> <input type="text">
                     <label>Endereço: </label> <input type="text">
@@ -55,14 +53,15 @@
                     <option value=“F”>Feminino</option>
                     <option value=“O”>Prefiro não opnar</option>
                 </select> <br>
-
+                <div>
+                    <button type="submit" value="submit">Enviar Dados</button>
+                  </div>
             </form>
         </section>
 
         <section class="classroom1">
             <H3>Vídeo Aula 1</H3>
             <video width="640" height="360" controls>
-                <source src="Vídeo 1" type="video/mp4">
                 Desculpe, seu navegador não suporta vídeos HTML5.
             </video>
         </section>
