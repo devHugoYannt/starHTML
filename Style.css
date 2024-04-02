@@ -1,6 +1,13 @@
+html{
+    font-size: 1em !important;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+
 body{
     background-color:black;
-    color:white;
+    
 }
 
 .container {
@@ -11,3 +18,4 @@ body{
   .container video {
     width: 33.33%;
   }
+
