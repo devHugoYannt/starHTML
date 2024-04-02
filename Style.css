@@ -16,6 +16,6 @@ body{
   
   .container img,
   .container video {
-    width: 33.33%;
+    width: auto;
   }
 
