@@ -156,11 +156,12 @@ span.elementos{
 }
 
 .rodape {
+  
   background-color: #000; /* Cor de fundo do rodapé */
   color: #fff; /* Cor do texto */
   padding: 20px; /* Espaçamento interno */
   text-align: center; /* Alinhamento do texto */
-  font-size: 12px; /* Reduz o tamanho da fonte do rodapé */
+  font-size: 70%; /* Reduz o tamanho da fonte do rodapé */
   line-height: 1.5; /* Reduz o espaçamento entre as linhas do rodapé */
 }
 
