@@ -69,7 +69,7 @@ color: #000;
   position: fixed;
   top: 0;
   left: 0;
-  width: 1460px; /* Reduz a largura do cabeçalho e adiciona um espaço extra nas margens */
+  width: 100%; /* Reduz a largura do cabeçalho e adiciona um espaço extra nas margens */
   height: 20px;
   display: flex;
   justify-content: space-between;
