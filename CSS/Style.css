@@ -197,3 +197,6 @@ span.elementos{
 .separador-baixo{
   padding-bottom: 50px;
 }
+.wrapperGrid{
+  display: grid;
+}
