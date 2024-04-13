@@ -238,7 +238,7 @@ span.elementos{
   height: 100%;
 }
 .separador-baixo{
-  padding-bottom: 50px;
+  padding-bottom: 50px;  /* Adiciona 50px para baixo, use para customizar layout */
 }
 .wrapperGrid{
   display: grid;
