@@ -96,7 +96,7 @@ html{
 
 
 body{
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.692);
     height: 100vh; 
     margin: 0;
     padding: 0; 
@@ -113,7 +113,7 @@ color: #000;
 
 .cabecalho {
   background-color: #000000;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.692);
   padding: 35px 25px 30px 20px; /* Diminui o espaçamento interno do cabeçalho */
   text-align: center;
   position: fixed;
